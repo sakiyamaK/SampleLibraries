@@ -1,0 +1,52 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.7.1)
+  - HyperioniOS/Core (1.2.0)
+  - IQKeyboardManager (6.5.12)
+  - Kingfisher (7.8.1)
+  - LicensePlist (3.24.10)
+  - lottie-ios (4.2.0)
+  - R.swift (7.3.2)
+  - SnapKit (5.6.0)
+  - SwiftLint (0.52.3)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire
+  - HyperioniOS/Core
+  - IQKeyboardManager
+  - Kingfisher
+  - LicensePlist
+  - lottie-ios
+  - R.swift
+  - SnapKit
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - Alamofire
+    - HyperioniOS
+    - IQKeyboardManager
+    - Kingfisher
+    - LicensePlist
+    - lottie-ios
+    - R.swift
+    - SnapKit
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  HyperioniOS: 4412ec61a390caadffcaaf3364733b06e103cf63
+  IQKeyboardManager: b1fd66ccf7a79095bdcc4a2735231586f744216e
+  Kingfisher: 63f677311d36a3473f6b978584f8a3845d023dc5
+  LicensePlist: 2e5c975314d2d2ee35cec141d57cc482d61b93c9
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftLint: 76ec9c62ad369cff2937474cb34c9af3fa270b7b
+
+PODFILE CHECKSUM: ff60fef9bc5936db8b849875ea86b5b0d2a9cf50
+
+COCOAPODS: 1.12.1

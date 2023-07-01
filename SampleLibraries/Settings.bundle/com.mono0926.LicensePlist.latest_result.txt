@@ -1,0 +1,47 @@
+name: ActiveLabel, nameSpecified: 
+body: The MIT License (MIT…
+version: 1.1.0
+
+name: Alamofire, nameSpecified: 
+body: Copyright (c) 2014-2…
+version: 5.7.1
+
+name: HyperioniOS, nameSpecified: 
+body: Copyright (c) 2017 W…
+version: 1.2.0
+
+name: IQKeyboardManager, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 6.5.12
+
+name: Kingfisher, nameSpecified: 
+body: The MIT License (MIT…
+version: 7.8.1
+
+name: LicensePlist, nameSpecified: 
+body: MIT License
+
+Copyrig…
+version: 3.24.10
+
+name: lottie-ios, nameSpecified: 
+body:                     …
+version: 4.2.0
+
+name: R.swift, nameSpecified: 
+body: The MIT License (MIT…
+version: 7.3.2
+
+name: SnapKit, nameSpecified: 
+body: Copyright (c) 2011-P…
+version: 5.6.0
+
+name: SwiftLint, nameSpecified: 
+body: The MIT License (MIT…
+version: 0.52.3
+
+add-version-numbers: false
+
+LicensePlist Version: 3.13.0
