@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PqR-zl-kJm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PqR-zl-kJm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,65 +11,62 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SampleLibiraries" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SampleLibraries" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MYg-0E-Gk1">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fC4-W8-xCp">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="87.5"/>
                                         <state key="normal" title="IQKeyboardManager"/>
                                         <connections>
                                             <segue destination="CU4-aW-Cqf" kind="show" id="qqC-se-LqI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Odk-6F-4qg">
-                                        <rect key="frame" x="0.0" y="98" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="97.5" width="414" height="87.5"/>
                                         <state key="normal" title="Alamofire"/>
                                         <connections>
                                             <segue destination="6hD-4A-ipn" kind="show" id="Fjy-Hb-25c"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpJ-YB-tZD">
-                                        <rect key="frame" x="0.0" y="196" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="195" width="414" height="87.5"/>
                                         <state key="normal" title="Lottie"/>
                                         <connections>
                                             <segue destination="rzR-JT-Zz3" kind="show" id="As7-1h-RIk"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdz-qS-5q9">
-                                        <rect key="frame" x="0.0" y="294" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="292.5" width="414" height="87.5"/>
                                         <state key="normal" title="ActiveLabel"/>
                                         <connections>
                                             <segue destination="o9g-xa-TVj" kind="show" id="L3X-pA-w3K"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGU-QZ-3SM">
-                                        <rect key="frame" x="0.0" y="392" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="390" width="414" height="87.5"/>
                                         <state key="normal" title="Kingfisher"/>
                                         <connections>
                                             <segue destination="wfE-pd-3d3" kind="show" id="KTi-ze-A1F"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvt-9U-fp1">
-                                        <rect key="frame" x="0.0" y="490" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="487.5" width="414" height="87.5"/>
                                         <state key="normal" title="SwityAttribute"/>
-                                        <connections>
-                                            <segue destination="fMY-qw-LXZ" kind="show" id="pdx-2w-XXE"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7i6-J4-0hk">
-                                        <rect key="frame" x="0.0" y="588" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="585" width="414" height="87.5"/>
                                         <state key="normal" title="R.swift"/>
                                         <connections>
                                             <segue destination="UdA-dN-nVB" kind="show" id="9fY-zb-cSu"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vV-ud-daL">
-                                        <rect key="frame" x="0.0" y="686" width="414" height="88"/>
+                                        <rect key="frame" x="0.0" y="682.5" width="414" height="87.5"/>
                                         <state key="normal" title="License"/>
                                     </button>
                                 </subviews>
@@ -124,16 +120,6 @@
             </objects>
             <point key="canvasLocation" x="872" y="367"/>
         </scene>
-        <!--SwiftyAttribute-->
-        <scene sceneID="Y7i-kw-fgS">
-            <objects>
-                <viewControllerPlaceholder storyboardName="SwiftyAttribute" id="fMY-qw-LXZ" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="bOR-TD-2h7"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5ex-bd-iAL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="888" y="434"/>
-        </scene>
         <!--Rswift-->
         <scene sceneID="dPw-YQ-XG8">
             <objects>
@@ -169,7 +155,7 @@
             <objects>
                 <navigationController id="PqR-zl-kJm" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mfI-uC-VMH">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

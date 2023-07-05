@@ -35,7 +35,7 @@ final class RswiftViewController: UIViewController {
 
     @objc func tapButton() {
         // storyboard
-        let vc = R.storyboard.activeLabel().instantiateInitialViewController()!
+        let vc = R.storyboard.activeLabel.instantiateInitialViewController()!
         self.navigationController?.pushViewController(vc, animated: true)
 
     }

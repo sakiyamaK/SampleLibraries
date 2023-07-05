@@ -8,39 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		0B3D5DE7215364AA45B6F1CE /* Pods_SampleLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BFD8B4115E886CD4F39F89 /* Pods_SampleLibraries.framework */; };
+		B632B18A2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json in Resources */ = {isa = PBXBuildFile; fileRef = B632B17B2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json */; };
+		B632B18B2A559F0600EC323B /* 9965-loading-spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = B632B17C2A559F0600EC323B /* 9965-loading-spinner.json */; };
+		B632B18C2A559F0600EC323B /* 32910-success.json in Resources */ = {isa = PBXBuildFile; fileRef = B632B17D2A559F0600EC323B /* 32910-success.json */; };
+		B632B18D2A559F0600EC323B /* GithubSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632B1802A559F0600EC323B /* GithubSearch.storyboard */; };
+		B632B18E2A559F0600EC323B /* GithubSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1812A559F0600EC323B /* GithubSearchViewController.swift */; };
+		B632B18F2A559F0600EC323B /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1822A559F0600EC323B /* GithubModel.swift */; };
+		B632B1902A559F0600EC323B /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1832A559F0600EC323B /* GithubAPI.swift */; };
+		B632B1912A559F0600EC323B /* GithubTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B632B1852A559F0600EC323B /* GithubTableViewCell.xib */; };
+		B632B1922A559F0600EC323B /* GithubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1862A559F0600EC323B /* GithubTableViewCell.swift */; };
+		B632B1932A559F0600EC323B /* ActiveLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1882A559F0600EC323B /* ActiveLabelViewController.swift */; };
+		B632B1942A559F0600EC323B /* ActiveLabel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632B1892A559F0600EC323B /* ActiveLabel.storyboard */; };
+		B632B1A12A559F1900EC323B /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1962A559F1900EC323B /* LottieViewController.swift */; };
+		B632B1A22A559F1900EC323B /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632B1972A559F1900EC323B /* Lottie.storyboard */; };
+		B632B1A32A559F1900EC323B /* Rswift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632B1992A559F1900EC323B /* Rswift.storyboard */; };
+		B632B1A42A559F1900EC323B /* RswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B19A2A559F1900EC323B /* RswiftViewController.swift */; };
+		B632B1A52A559F1900EC323B /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632B19C2A559F1900EC323B /* Keyboard.storyboard */; };
+		B632B1A62A559F1900EC323B /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B19D2A559F1900EC323B /* KeyboardViewController.swift */; };
+		B632B1A72A559F1900EC323B /* Kingfisher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B632B19F2A559F1900EC323B /* Kingfisher.storyboard */; };
+		B632B1A82A559F1900EC323B /* KingfisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1A02A559F1900EC323B /* KingfisherViewController.swift */; };
+		B632B1AD2A559F3300EC323B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B632B1A92A559F3200EC323B /* ViewController.swift */; };
 		B6444DAC2A502638008ED511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DAB2A502638008ED511 /* AppDelegate.swift */; };
 		B6444DAE2A502638008ED511 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DAD2A502638008ED511 /* SceneDelegate.swift */; };
 		B6444DB32A502638008ED511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DB12A502638008ED511 /* Main.storyboard */; };
 		B6444DB52A50263A008ED511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6444DB42A50263A008ED511 /* Assets.xcassets */; };
 		B6444DB82A50263A008ED511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DB62A50263A008ED511 /* LaunchScreen.storyboard */; };
-		B6444DDF2A5026F8008ED511 /* Rswift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DC02A5026F7008ED511 /* Rswift.storyboard */; };
-		B6444DE02A5026F8008ED511 /* RswiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DC12A5026F7008ED511 /* RswiftViewController.swift */; };
-		B6444DE12A5026F8008ED511 /* SwiftyAttribute.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DC32A5026F7008ED511 /* SwiftyAttribute.storyboard */; };
-		B6444DE22A5026F8008ED511 /* SwiftyAttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DC42A5026F7008ED511 /* SwiftyAttributeViewController.swift */; };
-		B6444DE32A5026F8008ED511 /* Kingfisher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DC62A5026F7008ED511 /* Kingfisher.storyboard */; };
-		B6444DE42A5026F8008ED511 /* KingfisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DC72A5026F7008ED511 /* KingfisherViewController.swift */; };
-		B6444DE52A5026F8008ED511 /* GithubSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DCA2A5026F7008ED511 /* GithubSearch.storyboard */; };
-		B6444DE62A5026F8008ED511 /* GithubSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DCB2A5026F7008ED511 /* GithubSearchViewController.swift */; };
-		B6444DE72A5026F8008ED511 /* GithubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DCC2A5026F7008ED511 /* GithubModel.swift */; };
-		B6444DE82A5026F8008ED511 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DCD2A5026F7008ED511 /* GithubAPI.swift */; };
-		B6444DE92A5026F8008ED511 /* GithubTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6444DCF2A5026F7008ED511 /* GithubTableViewCell.xib */; };
-		B6444DEA2A5026F8008ED511 /* GithubTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DD02A5026F7008ED511 /* GithubTableViewCell.swift */; };
-		B6444DEB2A5026F8008ED511 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DD22A5026F7008ED511 /* Keyboard.storyboard */; };
-		B6444DEC2A5026F8008ED511 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DD32A5026F7008ED511 /* KeyboardViewController.swift */; };
-		B6444DED2A5026F8008ED511 /* 32921-volumn-from-mute-to-maximum.json in Resources */ = {isa = PBXBuildFile; fileRef = B6444DD52A5026F7008ED511 /* 32921-volumn-from-mute-to-maximum.json */; };
-		B6444DEE2A5026F8008ED511 /* 9965-loading-spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = B6444DD62A5026F7008ED511 /* 9965-loading-spinner.json */; };
-		B6444DEF2A5026F8008ED511 /* 32910-success.json in Resources */ = {isa = PBXBuildFile; fileRef = B6444DD72A5026F7008ED511 /* 32910-success.json */; };
-		B6444DF02A5026F8008ED511 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DD92A5026F8008ED511 /* LottieViewController.swift */; };
-		B6444DF12A5026F8008ED511 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DDA2A5026F8008ED511 /* Lottie.storyboard */; };
-		B6444DF22A5026F8008ED511 /* ActiveLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DDC2A5026F8008ED511 /* ActiveLabelViewController.swift */; };
-		B6444DF32A5026F8008ED511 /* ActiveLabel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6444DDD2A5026F8008ED511 /* ActiveLabel.storyboard */; };
-		B6444DF42A5026F8008ED511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DDE2A5026F8008ED511 /* ViewController.swift */; };
 		B6444DF82A502BF4008ED511 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6444DF72A502BF4008ED511 /* R.generated.swift */; };
 		B6444DFD2A503358008ED511 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6444DFC2A503358008ED511 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		968183C378B0CB4B8D12C02D /* Pods-SampleLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleLibraries.release.xcconfig"; path = "Target Support Files/Pods-SampleLibraries/Pods-SampleLibraries.release.xcconfig"; sourceTree = "<group>"; };
+		B632B17B2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32921-volumn-from-mute-to-maximum.json"; sourceTree = "<group>"; };
+		B632B17C2A559F0600EC323B /* 9965-loading-spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9965-loading-spinner.json"; sourceTree = "<group>"; };
+		B632B17D2A559F0600EC323B /* 32910-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32910-success.json"; sourceTree = "<group>"; };
+		B632B1802A559F0600EC323B /* GithubSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GithubSearch.storyboard; sourceTree = "<group>"; };
+		B632B1812A559F0600EC323B /* GithubSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchViewController.swift; sourceTree = "<group>"; };
+		B632B1822A559F0600EC323B /* GithubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
+		B632B1832A559F0600EC323B /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		B632B1852A559F0600EC323B /* GithubTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubTableViewCell.xib; sourceTree = "<group>"; };
+		B632B1862A559F0600EC323B /* GithubTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubTableViewCell.swift; sourceTree = "<group>"; };
+		B632B1882A559F0600EC323B /* ActiveLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveLabelViewController.swift; sourceTree = "<group>"; };
+		B632B1892A559F0600EC323B /* ActiveLabel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActiveLabel.storyboard; sourceTree = "<group>"; };
+		B632B1962A559F1900EC323B /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
+		B632B1972A559F1900EC323B /* Lottie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
+		B632B1992A559F1900EC323B /* Rswift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rswift.storyboard; sourceTree = "<group>"; };
+		B632B19A2A559F1900EC323B /* RswiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RswiftViewController.swift; sourceTree = "<group>"; };
+		B632B19C2A559F1900EC323B /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		B632B19D2A559F1900EC323B /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		B632B19F2A559F1900EC323B /* Kingfisher.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kingfisher.storyboard; sourceTree = "<group>"; };
+		B632B1A02A559F1900EC323B /* KingfisherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherViewController.swift; sourceTree = "<group>"; };
+		B632B1A92A559F3200EC323B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6444DA82A502638008ED511 /* SampleLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6444DAB2A502638008ED511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6444DAD2A502638008ED511 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,28 +66,6 @@
 		B6444DB42A50263A008ED511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6444DB72A50263A008ED511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6444DB92A50263A008ED511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6444DC02A5026F7008ED511 /* Rswift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rswift.storyboard; sourceTree = "<group>"; };
-		B6444DC12A5026F7008ED511 /* RswiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RswiftViewController.swift; sourceTree = "<group>"; };
-		B6444DC32A5026F7008ED511 /* SwiftyAttribute.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SwiftyAttribute.storyboard; sourceTree = "<group>"; };
-		B6444DC42A5026F7008ED511 /* SwiftyAttributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAttributeViewController.swift; sourceTree = "<group>"; };
-		B6444DC62A5026F7008ED511 /* Kingfisher.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kingfisher.storyboard; sourceTree = "<group>"; };
-		B6444DC72A5026F7008ED511 /* KingfisherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherViewController.swift; sourceTree = "<group>"; };
-		B6444DCA2A5026F7008ED511 /* GithubSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GithubSearch.storyboard; sourceTree = "<group>"; };
-		B6444DCB2A5026F7008ED511 /* GithubSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchViewController.swift; sourceTree = "<group>"; };
-		B6444DCC2A5026F7008ED511 /* GithubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubModel.swift; sourceTree = "<group>"; };
-		B6444DCD2A5026F7008ED511 /* GithubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
-		B6444DCF2A5026F7008ED511 /* GithubTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubTableViewCell.xib; sourceTree = "<group>"; };
-		B6444DD02A5026F7008ED511 /* GithubTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubTableViewCell.swift; sourceTree = "<group>"; };
-		B6444DD22A5026F7008ED511 /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
-		B6444DD32A5026F7008ED511 /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		B6444DD52A5026F7008ED511 /* 32921-volumn-from-mute-to-maximum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32921-volumn-from-mute-to-maximum.json"; sourceTree = "<group>"; };
-		B6444DD62A5026F7008ED511 /* 9965-loading-spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9965-loading-spinner.json"; sourceTree = "<group>"; };
-		B6444DD72A5026F7008ED511 /* 32910-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32910-success.json"; sourceTree = "<group>"; };
-		B6444DD92A5026F8008ED511 /* LottieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
-		B6444DDA2A5026F8008ED511 /* Lottie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
-		B6444DDC2A5026F8008ED511 /* ActiveLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveLabelViewController.swift; sourceTree = "<group>"; };
-		B6444DDD2A5026F8008ED511 /* ActiveLabel.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ActiveLabel.storyboard; sourceTree = "<group>"; };
-		B6444DDE2A5026F8008ED511 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../SampleLibiraries/SampleLibiraries/ViewController.swift; sourceTree = "<group>"; };
 		B6444DF72A502BF4008ED511 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		B6444DFC2A503358008ED511 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = SampleLibraries/Settings.bundle; sourceTree = "<group>"; };
 		B6BFD8B4115E886CD4F39F89 /* Pods_SampleLibraries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleLibraries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +101,90 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B632B17A2A559F0600EC323B /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				B632B17B2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json */,
+				B632B17C2A559F0600EC323B /* 9965-loading-spinner.json */,
+				B632B17D2A559F0600EC323B /* 32910-success.json */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
+		B632B17E2A559F0600EC323B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				B632B17F2A559F0600EC323B /* GithubTableViewController */,
+				B632B1822A559F0600EC323B /* GithubModel.swift */,
+				B632B1832A559F0600EC323B /* GithubAPI.swift */,
+				B632B1842A559F0600EC323B /* GithubTableCell */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		B632B17F2A559F0600EC323B /* GithubTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B632B1802A559F0600EC323B /* GithubSearch.storyboard */,
+				B632B1812A559F0600EC323B /* GithubSearchViewController.swift */,
+			);
+			path = GithubTableViewController;
+			sourceTree = "<group>";
+		};
+		B632B1842A559F0600EC323B /* GithubTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				B632B1852A559F0600EC323B /* GithubTableViewCell.xib */,
+				B632B1862A559F0600EC323B /* GithubTableViewCell.swift */,
+			);
+			path = GithubTableCell;
+			sourceTree = "<group>";
+		};
+		B632B1872A559F0600EC323B /* ActiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B632B1882A559F0600EC323B /* ActiveLabelViewController.swift */,
+				B632B1892A559F0600EC323B /* ActiveLabel.storyboard */,
+			);
+			path = ActiveLabel;
+			sourceTree = "<group>";
+		};
+		B632B1952A559F1900EC323B /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B632B1962A559F1900EC323B /* LottieViewController.swift */,
+				B632B1972A559F1900EC323B /* Lottie.storyboard */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B632B1982A559F1900EC323B /* Rswift */ = {
+			isa = PBXGroup;
+			children = (
+				B632B1992A559F1900EC323B /* Rswift.storyboard */,
+				B632B19A2A559F1900EC323B /* RswiftViewController.swift */,
+			);
+			path = Rswift;
+			sourceTree = "<group>";
+		};
+		B632B19B2A559F1900EC323B /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				B632B19C2A559F1900EC323B /* Keyboard.storyboard */,
+				B632B19D2A559F1900EC323B /* KeyboardViewController.swift */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		B632B19E2A559F1900EC323B /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				B632B19F2A559F1900EC323B /* Kingfisher.storyboard */,
+				B632B1A02A559F1900EC323B /* KingfisherViewController.swift */,
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
 		B6444D9F2A502638008ED511 = {
 			isa = PBXGroup;
 			children = (
@@ -128,124 +208,22 @@
 		B6444DAA2A502638008ED511 /* SampleLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				B6444DDB2A5026F8008ED511 /* ActiveLabel */,
-				B6444DC82A5026F7008ED511 /* Alamofire */,
-				B6444DD42A5026F7008ED511 /* animations */,
-				B6444DD12A5026F7008ED511 /* IQKeyboardManager */,
-				B6444DC52A5026F7008ED511 /* Kingfisher */,
-				B6444DD82A5026F8008ED511 /* Lottie */,
-				B6444DBF2A5026F7008ED511 /* Rswift */,
-				B6444DC22A5026F7008ED511 /* SwiftyAttribute */,
-				B6444DDE2A5026F8008ED511 /* ViewController.swift */,
+				B632B1872A559F0600EC323B /* ActiveLabel */,
+				B632B17E2A559F0600EC323B /* Alamofire */,
+				B632B17A2A559F0600EC323B /* animations */,
 				B6444DAB2A502638008ED511 /* AppDelegate.swift */,
-				B6444DAD2A502638008ED511 /* SceneDelegate.swift */,
-				B6444DB12A502638008ED511 /* Main.storyboard */,
 				B6444DB42A50263A008ED511 /* Assets.xcassets */,
-				B6444DB62A50263A008ED511 /* LaunchScreen.storyboard */,
 				B6444DB92A50263A008ED511 /* Info.plist */,
+				B632B19B2A559F1900EC323B /* IQKeyboardManager */,
+				B632B19E2A559F1900EC323B /* Kingfisher */,
+				B6444DB62A50263A008ED511 /* LaunchScreen.storyboard */,
+				B632B1952A559F1900EC323B /* Lottie */,
+				B6444DB12A502638008ED511 /* Main.storyboard */,
+				B632B1982A559F1900EC323B /* Rswift */,
+				B6444DAD2A502638008ED511 /* SceneDelegate.swift */,
+				B632B1A92A559F3200EC323B /* ViewController.swift */,
 			);
 			path = SampleLibraries;
-			sourceTree = "<group>";
-		};
-		B6444DBF2A5026F7008ED511 /* Rswift */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DC02A5026F7008ED511 /* Rswift.storyboard */,
-				B6444DC12A5026F7008ED511 /* RswiftViewController.swift */,
-			);
-			name = Rswift;
-			path = ../../SampleLibiraries/SampleLibiraries/Rswift;
-			sourceTree = "<group>";
-		};
-		B6444DC22A5026F7008ED511 /* SwiftyAttribute */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DC32A5026F7008ED511 /* SwiftyAttribute.storyboard */,
-				B6444DC42A5026F7008ED511 /* SwiftyAttributeViewController.swift */,
-			);
-			name = SwiftyAttribute;
-			path = ../../SampleLibiraries/SampleLibiraries/SwiftyAttribute;
-			sourceTree = "<group>";
-		};
-		B6444DC52A5026F7008ED511 /* Kingfisher */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DC62A5026F7008ED511 /* Kingfisher.storyboard */,
-				B6444DC72A5026F7008ED511 /* KingfisherViewController.swift */,
-			);
-			name = Kingfisher;
-			path = ../../SampleLibiraries/SampleLibiraries/Kingfisher;
-			sourceTree = "<group>";
-		};
-		B6444DC82A5026F7008ED511 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DC92A5026F7008ED511 /* GithubTableViewController */,
-				B6444DCC2A5026F7008ED511 /* GithubModel.swift */,
-				B6444DCD2A5026F7008ED511 /* GithubAPI.swift */,
-				B6444DCE2A5026F7008ED511 /* GithubTableCell */,
-			);
-			name = Alamofire;
-			path = ../../SampleLibiraries/SampleLibiraries/Alamofire;
-			sourceTree = "<group>";
-		};
-		B6444DC92A5026F7008ED511 /* GithubTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DCA2A5026F7008ED511 /* GithubSearch.storyboard */,
-				B6444DCB2A5026F7008ED511 /* GithubSearchViewController.swift */,
-			);
-			path = GithubTableViewController;
-			sourceTree = "<group>";
-		};
-		B6444DCE2A5026F7008ED511 /* GithubTableCell */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DCF2A5026F7008ED511 /* GithubTableViewCell.xib */,
-				B6444DD02A5026F7008ED511 /* GithubTableViewCell.swift */,
-			);
-			path = GithubTableCell;
-			sourceTree = "<group>";
-		};
-		B6444DD12A5026F7008ED511 /* IQKeyboardManager */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DD22A5026F7008ED511 /* Keyboard.storyboard */,
-				B6444DD32A5026F7008ED511 /* KeyboardViewController.swift */,
-			);
-			name = IQKeyboardManager;
-			path = ../../SampleLibiraries/SampleLibiraries/IQKeyboardManager;
-			sourceTree = "<group>";
-		};
-		B6444DD42A5026F7008ED511 /* animations */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DD52A5026F7008ED511 /* 32921-volumn-from-mute-to-maximum.json */,
-				B6444DD62A5026F7008ED511 /* 9965-loading-spinner.json */,
-				B6444DD72A5026F7008ED511 /* 32910-success.json */,
-			);
-			name = animations;
-			path = ../../SampleLibiraries/SampleLibiraries/animations;
-			sourceTree = "<group>";
-		};
-		B6444DD82A5026F8008ED511 /* Lottie */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DD92A5026F8008ED511 /* LottieViewController.swift */,
-				B6444DDA2A5026F8008ED511 /* Lottie.storyboard */,
-			);
-			name = Lottie;
-			path = ../../SampleLibiraries/SampleLibiraries/Lottie;
-			sourceTree = "<group>";
-		};
-		B6444DDB2A5026F8008ED511 /* ActiveLabel */ = {
-			isa = PBXGroup;
-			children = (
-				B6444DDC2A5026F8008ED511 /* ActiveLabelViewController.swift */,
-				B6444DDD2A5026F8008ED511 /* ActiveLabel.storyboard */,
-			);
-			name = ActiveLabel;
-			path = ../../SampleLibiraries/SampleLibiraries/ActiveLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,21 +289,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6444DE12A5026F8008ED511 /* SwiftyAttribute.storyboard in Resources */,
+				B632B18A2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json in Resources */,
+				B632B1942A559F0600EC323B /* ActiveLabel.storyboard in Resources */,
+				B632B1A72A559F1900EC323B /* Kingfisher.storyboard in Resources */,
+				B632B18D2A559F0600EC323B /* GithubSearch.storyboard in Resources */,
+				B632B1A32A559F1900EC323B /* Rswift.storyboard in Resources */,
 				B6444DB82A50263A008ED511 /* LaunchScreen.storyboard in Resources */,
 				B6444DB52A50263A008ED511 /* Assets.xcassets in Resources */,
-				B6444DEF2A5026F8008ED511 /* 32910-success.json in Resources */,
+				B632B1A52A559F1900EC323B /* Keyboard.storyboard in Resources */,
+				B632B1912A559F0600EC323B /* GithubTableViewCell.xib in Resources */,
 				B6444DB32A502638008ED511 /* Main.storyboard in Resources */,
-				B6444DE32A5026F8008ED511 /* Kingfisher.storyboard in Resources */,
-				B6444DF12A5026F8008ED511 /* Lottie.storyboard in Resources */,
+				B632B1A22A559F1900EC323B /* Lottie.storyboard in Resources */,
 				B6444DFD2A503358008ED511 /* Settings.bundle in Resources */,
-				B6444DE52A5026F8008ED511 /* GithubSearch.storyboard in Resources */,
-				B6444DE92A5026F8008ED511 /* GithubTableViewCell.xib in Resources */,
-				B6444DF32A5026F8008ED511 /* ActiveLabel.storyboard in Resources */,
-				B6444DEE2A5026F8008ED511 /* 9965-loading-spinner.json in Resources */,
-				B6444DED2A5026F8008ED511 /* 32921-volumn-from-mute-to-maximum.json in Resources */,
-				B6444DEB2A5026F8008ED511 /* Keyboard.storyboard in Resources */,
-				B6444DDF2A5026F8008ED511 /* Rswift.storyboard in Resources */,
+				B632B18C2A559F0600EC323B /* 32910-success.json in Resources */,
+				B632B18B2A559F0600EC323B /* 9965-loading-spinner.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,20 +411,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6444DE72A5026F8008ED511 /* GithubModel.swift in Sources */,
+				B632B1AD2A559F3300EC323B /* ViewController.swift in Sources */,
+				B632B18F2A559F0600EC323B /* GithubModel.swift in Sources */,
 				B6444DF82A502BF4008ED511 /* R.generated.swift in Sources */,
-				B6444DF22A5026F8008ED511 /* ActiveLabelViewController.swift in Sources */,
-				B6444DF02A5026F8008ED511 /* LottieViewController.swift in Sources */,
-				B6444DE62A5026F8008ED511 /* GithubSearchViewController.swift in Sources */,
-				B6444DF42A5026F8008ED511 /* ViewController.swift in Sources */,
-				B6444DEC2A5026F8008ED511 /* KeyboardViewController.swift in Sources */,
-				B6444DE42A5026F8008ED511 /* KingfisherViewController.swift in Sources */,
-				B6444DEA2A5026F8008ED511 /* GithubTableViewCell.swift in Sources */,
+				B632B1A42A559F1900EC323B /* RswiftViewController.swift in Sources */,
+				B632B1922A559F0600EC323B /* GithubTableViewCell.swift in Sources */,
+				B632B1A82A559F1900EC323B /* KingfisherViewController.swift in Sources */,
+				B632B1932A559F0600EC323B /* ActiveLabelViewController.swift in Sources */,
+				B632B1902A559F0600EC323B /* GithubAPI.swift in Sources */,
 				B6444DAC2A502638008ED511 /* AppDelegate.swift in Sources */,
+				B632B1A12A559F1900EC323B /* LottieViewController.swift in Sources */,
+				B632B18E2A559F0600EC323B /* GithubSearchViewController.swift in Sources */,
 				B6444DAE2A502638008ED511 /* SceneDelegate.swift in Sources */,
-				B6444DE22A5026F8008ED511 /* SwiftyAttributeViewController.swift in Sources */,
-				B6444DE82A5026F8008ED511 /* GithubAPI.swift in Sources */,
-				B6444DE02A5026F8008ED511 /* RswiftViewController.swift in Sources */,
+				B632B1A62A559F1900EC323B /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
