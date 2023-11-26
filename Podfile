@@ -13,7 +13,7 @@ target 'SampleLibraries' do
   pod 'lottie-ios'
   pod "Kingfisher"
   pod "Alamofire"
-  # pod "SwiftyAttributes", "~> 5.3.0"
+  pod "SwiftyAttributes"
   pod "ActiveLabel"
   pod "SnapKit"
   pod 'SwiftLint'

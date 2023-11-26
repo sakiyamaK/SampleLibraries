@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0B3D5DE7215364AA45B6F1CE /* Pods_SampleLibraries.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BFD8B4115E886CD4F39F89 /* Pods_SampleLibraries.framework */; };
+		B608C0262B12D9FC002CDC53 /* SwiftyAttribute.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B608C0242B12D9FC002CDC53 /* SwiftyAttribute.storyboard */; };
+		B608C0272B12D9FC002CDC53 /* SwiftyAttributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608C0252B12D9FC002CDC53 /* SwiftyAttributeViewController.swift */; };
 		B632B18A2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json in Resources */ = {isa = PBXBuildFile; fileRef = B632B17B2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json */; };
 		B632B18B2A559F0600EC323B /* 9965-loading-spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = B632B17C2A559F0600EC323B /* 9965-loading-spinner.json */; };
 		B632B18C2A559F0600EC323B /* 32910-success.json in Resources */ = {isa = PBXBuildFile; fileRef = B632B17D2A559F0600EC323B /* 32910-success.json */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		968183C378B0CB4B8D12C02D /* Pods-SampleLibraries.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleLibraries.release.xcconfig"; path = "Target Support Files/Pods-SampleLibraries/Pods-SampleLibraries.release.xcconfig"; sourceTree = "<group>"; };
+		B608C0242B12D9FC002CDC53 /* SwiftyAttribute.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SwiftyAttribute.storyboard; sourceTree = "<group>"; };
+		B608C0252B12D9FC002CDC53 /* SwiftyAttributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyAttributeViewController.swift; sourceTree = "<group>"; };
 		B632B17B2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32921-volumn-from-mute-to-maximum.json"; sourceTree = "<group>"; };
 		B632B17C2A559F0600EC323B /* 9965-loading-spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9965-loading-spinner.json"; sourceTree = "<group>"; };
 		B632B17D2A559F0600EC323B /* 32910-success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "32910-success.json"; sourceTree = "<group>"; };
@@ -99,6 +103,15 @@
 				968183C378B0CB4B8D12C02D /* Pods-SampleLibraries.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B608C0232B12D9FC002CDC53 /* SwiftyAttribute */ = {
+			isa = PBXGroup;
+			children = (
+				B608C0242B12D9FC002CDC53 /* SwiftyAttribute.storyboard */,
+				B608C0252B12D9FC002CDC53 /* SwiftyAttributeViewController.swift */,
+			);
+			path = SwiftyAttribute;
 			sourceTree = "<group>";
 		};
 		B632B17A2A559F0600EC323B /* animations */ = {
@@ -221,6 +234,7 @@
 				B6444DB12A502638008ED511 /* Main.storyboard */,
 				B632B1982A559F1900EC323B /* Rswift */,
 				B6444DAD2A502638008ED511 /* SceneDelegate.swift */,
+				B608C0232B12D9FC002CDC53 /* SwiftyAttribute */,
 				B632B1A92A559F3200EC323B /* ViewController.swift */,
 			);
 			path = SampleLibraries;
@@ -289,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B608C0262B12D9FC002CDC53 /* SwiftyAttribute.storyboard in Resources */,
 				B632B18A2A559F0600EC323B /* 32921-volumn-from-mute-to-maximum.json in Resources */,
 				B632B1942A559F0600EC323B /* ActiveLabel.storyboard in Resources */,
 				B632B1A72A559F1900EC323B /* Kingfisher.storyboard in Resources */,
@@ -420,6 +435,7 @@
 				B632B1932A559F0600EC323B /* ActiveLabelViewController.swift in Sources */,
 				B632B1902A559F0600EC323B /* GithubAPI.swift in Sources */,
 				B6444DAC2A502638008ED511 /* AppDelegate.swift in Sources */,
+				B608C0272B12D9FC002CDC53 /* SwiftyAttributeViewController.swift in Sources */,
 				B632B1A12A559F1900EC323B /* LottieViewController.swift in Sources */,
 				B632B18E2A559F0600EC323B /* GithubSearchViewController.swift in Sources */,
 				B6444DAE2A502638008ED511 /* SceneDelegate.swift in Sources */,

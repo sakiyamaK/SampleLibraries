@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PqR-zl-kJm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PqR-zl-kJm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -57,6 +58,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvt-9U-fp1">
                                         <rect key="frame" x="0.0" y="487.5" width="414" height="87.5"/>
                                         <state key="normal" title="SwityAttribute"/>
+                                        <connections>
+                                            <segue destination="4Hd-Eg-eO3" kind="show" id="7ha-vY-m7z"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7i6-J4-0hk">
                                         <rect key="frame" x="0.0" y="585" width="414" height="87.5"/>
@@ -119,6 +123,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CNk-vG-PIp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="872" y="367"/>
+        </scene>
+        <!--SwiftyAttribute-->
+        <scene sceneID="Xrq-y6-oQ1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SwiftyAttribute" id="4Hd-Eg-eO3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jee-6r-BQF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cnK-Ia-hqp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918" y="425"/>
         </scene>
         <!--Rswift-->
         <scene sceneID="dPw-YQ-XG8">

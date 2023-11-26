@@ -42,6 +42,10 @@ name: SwiftLint, nameSpecified:
 body: The MIT License (MIT…
 version: 0.52.3
 
+name: SwiftyAttributes, nameSpecified: 
+body: The MIT License (MIT…
+version: 5.4.0
+
 add-version-numbers: false
 
 LicensePlist Version: 3.13.0

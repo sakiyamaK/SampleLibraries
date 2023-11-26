@@ -9,6 +9,7 @@ PODS:
   - R.swift (7.3.2)
   - SnapKit (5.6.0)
   - SwiftLint (0.52.3)
+  - SwiftyAttributes (5.4.0)
 
 DEPENDENCIES:
   - ActiveLabel
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - R.swift
   - SnapKit
   - SwiftLint
+  - SwiftyAttributes
 
 SPEC REPOS:
   trunk:
@@ -34,6 +36,7 @@ SPEC REPOS:
     - R.swift
     - SnapKit
     - SwiftLint
+    - SwiftyAttributes
 
 SPEC CHECKSUMS:
   ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
@@ -46,7 +49,8 @@ SPEC CHECKSUMS:
   R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   SwiftLint: 76ec9c62ad369cff2937474cb34c9af3fa270b7b
+  SwiftyAttributes: 45fae22b22a246a0b7f0a8d2157a02bf89fb2e9a
 
-PODFILE CHECKSUM: ff60fef9bc5936db8b849875ea86b5b0d2a9cf50
+PODFILE CHECKSUM: ada7c516eee0cf595d85cfa8c7005c25725983b1
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.2
